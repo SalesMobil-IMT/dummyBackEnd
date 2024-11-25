@@ -14,7 +14,7 @@ class ProfileController extends Controller
             "nomorWhatsapp" => "08123456789",
             "perusahaan" => "My Company",
             "kodeReferal" => "12ab34cd",
-            "tanggalLahir" => \Illuminate\Support\Carbon::now(),
+            "tanggalLahir" => date("d-m-Y"),
             "alamat" => [
                 "address" => "123 Main Street",
                 "provinsi" => "Sulawesi Selatan",
